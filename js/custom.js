@@ -15,13 +15,6 @@ function previouspage() {
 }
 document.getElementById("description") = description;
 
-let showChar = 10 ;
 
-let more = description.substring(0 , showChar)
-function showMore() {
-    if (description.length > showChar) {
-        document.getElementById("description").innerHTML = more
-    }
-}
 
 
