@@ -23,12 +23,5 @@ function showMore() {
         document.getElementById("description").innerHTML = more
     }
 }
-/* let description = document.getElementById("description");
-let dLength = description.length;
-let newD = description + "...."
-if (dlength > 30) {
-    return newD
-} else {
-    
-} */
+
 
